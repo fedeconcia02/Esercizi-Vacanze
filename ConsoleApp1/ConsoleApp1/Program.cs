@@ -7,8 +7,8 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             int a = int.MaxValue;
-            Console.WriteLine(a);
-            Console.WriteLine(a + 1);
+            Console.WriteLine(a); //"int" è un tipo di variabile che ricopre un raggio determinato di numeri interi. ".MaxValue" è servito per mostrare quale è il valore massimo;
+            Console.WriteLine(a + 1); //Valore massimo del tipo "int" +1, cioè di un'unità più grande di quanto possa contenere;
             int b = -128;
             int c = -b;
             Console.WriteLine(Convert.ToString(b, 2));
